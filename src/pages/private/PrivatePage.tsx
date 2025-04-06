@@ -1,6 +1,6 @@
 // src/pages/ProtectedPage.tsx
 import React from 'react';
-import keycloak from '../../keycloak'; // Import the keycloak instance
+import keycloak from '../..//security/keycloak'; // Import the keycloak instance
 
 const ProtectedPage: React.FC = () => {
   // Example: Displaying user information from the token

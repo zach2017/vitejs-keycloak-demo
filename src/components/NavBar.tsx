@@ -1,7 +1,7 @@
 // src/components/Navbar.tsx
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import keycloak from '../keycloak'; // Import the keycloak instance
+import keycloak from '../security/keycloak'; // Import the keycloak instance
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();

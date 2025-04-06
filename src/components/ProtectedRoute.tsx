@@ -1,7 +1,7 @@
 // src/components/ProtectedRoute.tsx
 import React from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
-import keycloak from '../keycloak'; // Import the keycloak instance
+import keycloak from '../security/keycloak'; // Import the keycloak instance
 
 interface ProtectedRouteProps {
   // You can add specific role checks here if needed
