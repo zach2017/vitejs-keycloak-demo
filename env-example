@@ -1,5 +1,5 @@
 
 # Keycloak Configuration
-REACT_APP_KEYCLOAK_URL=http://localhost:7777
-REACT_APP_KEYCLOAK_REALM=myrealm
-REACT_APP_KEYCLOAK_CLIENT_ID=myclient
+VITE_KEYCLOAK_URL=http://localhost:7777
+VITE_KEYCLOAK_REALM=demorealm
+VITE_KEYCLOAK_CLIENT_ID=demoapp

@@ -47,6 +47,7 @@ const Navbar: React.FC = () => {
 
   const handleLogout = () => {
     // Redirect to Keycloak logout page
+    alert("logout")
     keycloak.logout();
   };
 
